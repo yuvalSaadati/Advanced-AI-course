@@ -2,7 +2,7 @@
 
 This repository contains the implementation and comparison of the **FORK** algorithm as presented in the paper:
 
-**Title: [FORK: A Forward-Looking Actor for Model-Free Reinforcement Learning](https://arxiv.org/abs/2011.XXXXX)**
+**Title: [FORK: A Forward-Looking Actor for Model-Free Reinforcement Learning](https://arxiv.org/pdf/2010.01652)**
 
 ## Overview
 
@@ -24,10 +24,8 @@ Ensure you have the following installed:
 ## Running the Code
 ### TDS_FORK (TD3)
 To reproduce the results for the TDS_FORK algorithm, run the Jupyter notebook:
-TD3_FORK_BipedalWalkerHardcore_Colab.ipynb
-This notebook is designed to run in a Google Colab environment and should yield results consistent with those reported in the original paper.
+TD3_FORK_BipedalWalkerHardcore_Colab.ipynb. This notebook is designed to run in a Google Colab environment and should yield results consistent with those reported in the original paper.
 
 ### SAC_FORK
 To run the SAC_FORK algorithm, execute the script:
-python main_sac_fork.py
-This script trains the model using the SAC framework with FORK enhancements.
+python main_sac_fork.py. This script trains the model using the SAC framework with FORK enhancements.
